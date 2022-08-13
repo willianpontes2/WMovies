@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMovies</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        body {
+            font: 12px Arial;
+         }
+
+         button {
+            font-size: 12px; 
+            padding: 20px;
+                    }
+    </style>
+    </head>
+
+<header>
+<h1>WMOVIES</h1>
+</header>
+
+<main>
+<section>
+    <article>
+        <h2>Filmes melhores votados no IMDB</h2>
+        <p>Sua nota pode interferir na colocação do filme</p>
+        </article>
+
+        <article>
+            <h2>Filmes mais rentáveis da história</h2>
+            <p>Filmes com maior bilheteria na história do cinema.</p>
+            <aside>Biheterias atualizadas</aside>
+            <br>
+        </article>
+    </section>
+
+</main>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <h2 class="topico">Filmes melhores votados</h2>
+    <button onclick="comecar()">Clique aqui!</button>
+    <script>
+        function comecar()  {
+let nome= window.prompt("Qual seu filme favorito?")
+window.alert(`O filme ${nome} é muito interessante!`)
+        }   
+         </script>
+    <ol>
+        <li>Um Sonho de Liberdade (1994)</li>
+        <li>O Poderoso Chefão (1972)</li>
+        <li>Batman: O Cavaleiro das Trevas (2008)</li>
+        <li>O Poderoso Chefão II (1974)</li>
+        <li>12 Homens e uma Sentença (1957)</li>
+         </ol>
+
+         <h2 class="topico">Filmes mais rentáveis</h2>
+    <ol>
+        <li>Avatar</li>
+        <li>Avengers: Endgame</li>
+        <li>Titanic</li>
+        <li>Star Wars: Episode VII - The Force Awakens</li>
+        <li>Avengers: Infinity War</li>
+    </ol>
+
+        <dl>
+        <dt>Melhores Votados</dt>
+        <dd>Média da nota concedida pelo público.</dd>
+
+        <dt>Filmes mais rentáveis</dt>
+        <dd>Média do valor obtido pela bilheteria de cada filme.</dd>
+    </dl>
+
+        
+</body>
+</html>
